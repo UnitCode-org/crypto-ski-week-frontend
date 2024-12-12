@@ -207,22 +207,24 @@ export const Card = ({ card, index, layout = false }: { card: Card; index: numbe
               >
                 <IconX className='h-6 w-6 text-neutral-100 dark:text-neutral-900' />
               </button>
-              <div className='flex items-end justify-between gap-2 mt-8'>
+              <div className='flex flex-col md:flex-row md:items-end md:justify-between gap-2 mt-8'>
                 <div>
                   <motion.p
                     layoutId={layout ? `category-${card.title}` : undefined}
-                    className='text-2xl font-medium text-gray-2'
+                    className='text-base md:text-2xl md:font-medium text-gray-2'
                   >
                     {card.category}
                   </motion.p>
                   <motion.p
                     layoutId={layout ? `title-${card.title}` : undefined}
-                    className='text-2xl md:text-4xl font-medium text-neutral-700 mt-4 dark:text-white'
+                    className='text-3xl md:text-4xl font-medium text-neutral-700 mt-4 dark:text-white max-w-72 md:max-w-none'
                   >
                     {card.title} #CryptoSkiWeek
                   </motion.p>
                 </div>
-                <Button className='rounded-full text-lg px-9 py-6 font-bold'>Sign Up</Button>
+                <Button className='rounded-full text-sm md:text-lg px-6 md:px-9 py-4 md:py-6 font-medium md:font-bold w-fit'>
+                  Sign Up
+                </Button>
               </div>
               <div className='py-10'>{card.content}</div>
             </motion.div>
@@ -232,10 +234,10 @@ export const Card = ({ card, index, layout = false }: { card: Card; index: numbe
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className='rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10'
+        className='rounded-3xl bg-gray-100 dark:bg-neutral-900 h-[30rem] w-72 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10'
       >
         <div className='absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none' />
-        <div className='relative z-40 p-8'>
+        <div className='relative z-40 p-6 md:p-8'>
           <motion.p
             layoutId={layout ? `category-${card.category}` : undefined}
             className='text-white text-sm md:text-xl font-normal font-helvetica text-left'

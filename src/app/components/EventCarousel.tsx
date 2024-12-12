@@ -37,16 +37,16 @@ function EventCarousel() {
   }) => {
     return (
       <>
-        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip h-[36rem]'>
-          <p className='font-medium text-base text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-center p-6 md:p-14'>
+        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip pt-7 md:pt-0'>
+          <p className='md:font-medium text-lg leading-tight text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-start md:text-center p-6 md:p-14'>
             <span className='text-black'>Join Unit Network</span> {description}
           </p>
-          <div className='relative w-full h-full'>
+          <div className='relative w-full h-[14rem] md:h-[20rem] md:-mt-12'>
             <Image src={image1} alt={'Event Image 1'} fill className={image1Class} />
           </div>
         </div>
-        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip h-[36rem]'>
-          <p className='font-medium text-base text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-center p-6 md:p-14'>
+        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip pt-7 md:pt-0'>
+          <p className='md:font-medium text-lg leading-tight text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-start md:text-center p-6 md:p-14'>
             <span className='text-black'>Dates:</span> {dates}
             <br />
             <span className='text-black'>Location: {location}</span>
@@ -54,15 +54,15 @@ function EventCarousel() {
             <br />
             <span className='text-black'>What’s Included?</span> {whatsIncluded}
           </p>
-          <div className='relative w-full h-full px-40'>
+          <div className='relative w-auto h-[12rem] md:h-[16rem] -mx-28'>
             <Image src={image2} alt={'Event Image 2'} fill className={image2Class} />
           </div>
         </div>
-        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip h-[40rem]'>
-          <p className='font-medium text-base text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-center p-6 md:p-14'>
+        <div className='bg-[#F5F5F7] dark:bg-neutral-800 rounded-3xl mb-4 overflow-clip pt-7 md:pt-0'>
+          <p className='md:font-medium text-lg leading-tight text-gray-5 md:text-2xl font-helvetica max-w-3xl mx-auto text-start md:text-center p-6 md:p-14'>
             <span className='text-black'>Who Should Attend?</span> {whoShouldAttend}
           </p>
-          <div className='relative w-full h-full'>
+          <div className='relative w-full h-[12rem] md:h-[32rem]'>
             <Image src={image3} alt={'Event Image 3'} fill className={image3Class} />
           </div>
         </div>
@@ -83,11 +83,11 @@ function EventCarousel() {
           whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
           whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
           image1={skiImg}
-          image1Class='object-contain object-top -mt-12'
+          image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
           image2Class='object-cover object-top'
           image3={groupImg}
-          image3Class='object-contain -mt-16'
+          image3Class='object-cover'
         />
       ),
     },
@@ -103,11 +103,11 @@ function EventCarousel() {
           whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
           whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
           image1={skiImg}
-          image1Class='object-contain object-top -mt-12'
+          image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
           image2Class='object-cover object-top'
           image3={groupImg}
-          image3Class='object-contain -mt-16'
+          image3Class='object-cover'
         />
       ),
     },
@@ -123,11 +123,11 @@ function EventCarousel() {
           whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
           whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
           image1={skiImg}
-          image1Class='object-contain object-top -mt-12'
+          image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
           image2Class='object-cover object-top'
           image3={groupImg}
-          image3Class='object-contain -mt-16'
+          image3Class='object-cover'
         />
       ),
     },
@@ -144,11 +144,11 @@ function EventCarousel() {
           whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
           whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
           image1={skiImg}
-          image1Class='object-contain object-top -mt-12'
+          image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
           image2Class='object-cover object-top'
           image3={groupImg}
-          image3Class='object-contain -mt-16'
+          image3Class='object-cover'
         />
       ),
     },
