@@ -97,11 +97,11 @@ function EventCarousel() {
       src: hokkaidoImg,
       content: (
         <PopupContent
-          description='in the breathtaking Swiss Alps for an unforgettable blend of skiing, networking, and cryptocurrency insights. St. Moritz, renowned for its stunning slopes and luxury, is the perfect setting for crypto enthusiasts and professionals to connect and unwind.'
-          dates='March 2023'
-          location='St. Moritz, Switzerland'
-          whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
-          whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
+          description="in the pristine powder snow of Hokkaido, Japan for an extraordinary fusion of skiing and crypto networking. Experience legendary Japanese hospitality while connecting with blockchain innovators on some of the world's finest powder slopes."
+          dates='February 2024'
+          location='Niseko, Hokkaido, Japan'
+          whatsIncluded='Luxury onsen resort accommodation, ski passes and equipment, guided backcountry tours, traditional Japanese dinners, and exclusive crypto networking events.'
+          whoShouldAttend='Crypto and blockchain professionals seeking to combine world-class powder skiing with meaningful industry connections in a unique cultural setting.'
           image1={skiImg}
           image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
@@ -112,16 +112,16 @@ function EventCarousel() {
       ),
     },
     {
-      category: 'Sweden',
+      category: 'USA',
       title: 'Aspen',
       src: aspenImg,
       content: (
         <PopupContent
-          description='in the breathtaking Swiss Alps for an unforgettable blend of skiing, networking, and cryptocurrency insights. St. Moritz, renowned for its stunning slopes and luxury, is the perfect setting for crypto enthusiasts and professionals to connect and unwind.'
-          dates='March 2023'
-          location='St. Moritz, Switzerland'
-          whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
-          whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
+          description="in the iconic mountains of Aspen, Colorado for an exclusive gathering of crypto leaders and winter sports enthusiasts. Combine luxury mountain living with high-level industry networking in one of North America's most prestigious ski destinations."
+          dates='TBA'
+          location='Aspen, Colorado, USA'
+          whatsIncluded="5-star mountain lodge accommodation, premium ski passes, equipment rentals, private networking events, and exclusive access to Aspen's finest venues."
+          whoShouldAttend='Cryptocurrency executives, investors, and enthusiasts looking to network at the intersection of luxury lifestyle and blockchain innovation.'
           image1={skiImg}
           image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}
@@ -138,11 +138,11 @@ function EventCarousel() {
       src: upcomingImg,
       content: (
         <PopupContent
-          description='in the breathtaking Swiss Alps for an unforgettable blend of skiing, networking, and cryptocurrency insights. St. Moritz, renowned for its stunning slopes and luxury, is the perfect setting for crypto enthusiasts and professionals to connect and unwind.'
-          dates='March 2023'
-          location='St. Moritz, Switzerland'
-          whatsIncluded='Accommodation in a luxury Alpine Resort. Ski passes and Equipment Rentals, Access to Networking sessions and workshops.'
-          whoShouldAttend='This event is perfect for crypto enthusiasts, blockchain founders, investors, and ski lovers seeking meaningful connections.'
+          description='at our next exciting destination. Stay tuned for announcements about future Crypto Ski Week events combining premier ski locations with unparalleled networking opportunities in the blockchain space.'
+          dates='TBA'
+          location='Location to be announced'
+          whatsIncluded='Premium accommodation, full ski packages, exclusive networking events, and unique cultural experiences specific to the chosen destination.'
+          whoShouldAttend='Forward-thinking crypto professionals and enthusiasts eager to be part of our next groundbreaking winter networking experience.'
           image1={skiImg}
           image1Class='object-cover object-top md:px-52'
           image2={mountain2Img}

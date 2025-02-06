@@ -7,6 +7,7 @@ import Image, { ImageProps, StaticImageData } from 'next/image';
 import { useOutsideClick } from '@/hooks/use-outside-click';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from './button';
+import Link from 'next/link';
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -222,9 +223,11 @@ export const Card = ({ card, index, layout = false }: { card: Card; index: numbe
                     {card.title} #CryptoSkiWeek
                   </motion.p>
                 </div>
-                <Button className='rounded-full text-sm md:text-lg px-6 md:px-9 py-4 md:py-6 font-medium md:font-bold w-fit'>
-                  Sign Up
-                </Button>
+                <Link href='https://www.unitski.com/' target='_blank'>
+                  <Button className='rounded-full text-sm md:text-lg px-6 md:px-9 py-4 md:py-6 font-medium md:font-bold w-fit'>
+                    Sign Up
+                  </Button>
+                </Link>
               </div>
               <div className='py-10'>{card.content}</div>
             </motion.div>
